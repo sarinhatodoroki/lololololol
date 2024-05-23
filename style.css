@@ -1,6 +1,6 @@
 :root{
 
-    --branco-principal: #ffcbcb;
+    --branco-principal: #ffd1d1;
     --cinza-secundario: #1c9cad;
     --botao-azul: #FFFF;
     --cor-de-fundo: #030303;
@@ -14,3 +14,17 @@ body{
     color: (var(--branco-principal));
 
 }
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.principal {
+
+    background-image: url();
+}
+
+.container {height: 100vh;}
