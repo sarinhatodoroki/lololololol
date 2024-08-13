@@ -1,5 +1,5 @@
 :root {
-    --branco-principal: #b300ff;
+    --branco-principal: #9000cd;
     --cinza-secundario: #ebb3ff;
     --botao-azul: #c8e1ff;
     --cor-de-fundo: #00030C;
@@ -38,8 +38,12 @@ body {
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
-    display: block;
-    text-decoration: none;
+    display: block;Play
+    ￼Mute
+    Current TimeÂ0:03
+    /
+    DurationÂ8:55
+    
     margin-bottom: 1em;
 }
 
