@@ -38,13 +38,10 @@ body {
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
-    display: block;Play
-    ￼Mute
-    Current TimeÂ0:03
-    /
-    DurationÂ8:55
-    
+    display: block;
+    text-decoration: none;
     margin-bottom: 1em;
+
 }
 
 .botao_secundario {
@@ -98,3 +95,21 @@ body {
 .container__descricao {
     padding: 2em;
 }
+
+.dispositivos_lista {
+
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.dispostivos {
+
+    text-align:center;
+}
+
+.dispositivos_titulo {
+
+    font-size: 48px;
+}
+
