@@ -1,9 +1,10 @@
 :root {
-    --branco-principal: #9000cd;
-    --cinza-secundario: #ebb3ff;
-    --botao-azul: #c8e1ff;
+    --branco-principal:  #ff009d;
+    --cinza-secundario: #f6c8ff;
+    --botao-azul: #fce0ff;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
+    --botao-azul-efeito: #ffb3f9;
 }
 
 body {
@@ -35,7 +36,7 @@ body {
 
 .container__botao {
     background-color: var(--botao-azul);
-    border-radius: 5px;
+    border-radius: 100px;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
@@ -96,20 +97,70 @@ body {
     padding: 2em;
 }
 
-.dispositivos_lista {
-
+.dispositivos__lista {
     display: flex;
     justify-content: center;
     list-style-type: none;
+    margin: 5em 0;
 }
 
-.dispostivos {
-
-    text-align:center;
+.dispositivos {
+    text-align: center;
 }
 
-.dispositivos_titulo {
-
-    font-size: 48px;
+.dispositivos__titulo {
+    font-size: 2px;
+    color: var(--branco-principal);
 }
+
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+
+.lista__link a:active {
+    color: purple;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
 
